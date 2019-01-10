@@ -1,0 +1,4 @@
+<div id="productPrice">
+ price :  <input type="number" #price *ngIf="selectedProduct" min="0"  [(ngModel)]="selectedProduct.price" />
+  <button class="success" (click)="ChangePrice()">Save</button>
+</div>

@@ -1,0 +1,7 @@
+<div class=container>
+  <div *ngFor="let p of products;let i = index">
+
+    <i (click)="ProductChanged(p)" class="material-icons">mode_edit</i> {{p.title | uppercase}} - {{p.price}} <span class="fa fa-euro"></span>
+
+  </div>
+</div>
